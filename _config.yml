@@ -21,7 +21,7 @@
 title: ML Insights
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cover latest research related to machine learning, generative AI,
+  Blog related to latest research in machine learning, generative AI,
   large language models, reinforcement learning and advanced techniques
   in deep learning and machine learning.
 baseurl: "" # the subpath of your site, e.g. /blog
