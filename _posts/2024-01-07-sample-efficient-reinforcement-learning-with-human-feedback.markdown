@@ -19,8 +19,8 @@ This research has significant implications for sample-efficient reinforcement le
 
 To learn more about the details of this research and its impact, please refer to the original [paper][paper-link].
 
-### References
-* SAMPLE EFFICIENT REINFORCEMENT LEARNING FROM HUMAN FEEDBACK VIA ACTIVE EXPLORATION, by Mehta et.al.
-
+{% highlight ruby %}
+SAMPLE EFFICIENT REINFORCEMENT LEARNING FROM HUMAN FEEDBACK VIA ACTIVE EXPLORATION, by Mehta et.al.
+{% endhighlight %}
 
 [paper-link]: https://arxiv.org/pdf/2312.00267.pdf
