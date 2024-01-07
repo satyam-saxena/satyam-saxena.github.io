@@ -19,6 +19,8 @@ This research has significant implications for sample-efficient reinforcement le
 
 To learn more about the details of this research and its impact, please refer to the original [paper][paper-link].
 
+** References **
+
 - Lan, Yixing, et al. ‘Sample Efficient Deep Reinforcement Learning with Online State Abstraction and Causal Transformer Model Prediction’. IEEE Transactions on Neural Networks and Learning Systems, vol. PP, Aug. 2023, https://doi.org10.1109/TNNLS.2023.3296642.
 
 - Mehta, Viraj, et al. ‘Sample Efficient Reinforcement Learning from Human Feedback via Active Exploration’. arXiv [Cs.LG], 30 Nov. 2023, http://arxiv.org/abs/2312.00267. arXiv.
