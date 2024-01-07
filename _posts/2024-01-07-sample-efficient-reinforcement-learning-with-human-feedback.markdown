@@ -11,11 +11,20 @@ Another core problem is aligning large language models (LLMs) with human prefere
 
 As the number of variations required for these LLMs increases, the cost of data annotations becomes the primary bottleneck for training these models.
 
-![Active exploration process](/docs/assets/sample_rlhf/img1.png)
+<p align="center">
+  <img alt="img-name" src="/docs/assets/sample_rlhf/img1.png" width="900">
+  <br>
+    <em>Sample Efficient Reinforcement Learning from Human Feedback via Active Exploration</em>
+</p>
 
 To address these challenges, the authors propose a technique that identifies contexts with the largest uncertainty, allowing for the identification of good policies. They frame the problem as an active contextual dueling bandit problem. The core proposal of this paper is the Contextual Borda function, which enables active exploration in reinforcement learning. This approach generates a sampling and policy selection rule to output a policy with provably low sub-optimality. The sampling rule selects contexts with maximum uncertainty over the "Borda value function".
 
-![Active exploration process](/docs/assets/sample_rlhf/img2.png)
+<p align="center">
+  <img alt="img-name" src="/docs/assets/sample_rlhf/img2.png" width="900">
+  <br>
+    <em>Sample Efficient Reinforcement Learning from Human Feedback via Active Exploration</em>
+</p>
+
 
 In their experiments, the authors compare their proposal, AE-Borda, with two other methods: Uniform Borda (which uses uniform sampling for both contexts and actions) and UCB-Borda (which uses uniform sampling of contexts along with UCB actions as in AE-Borda). The results show that the proposed technique achieves similar performance with fewer input samples.
 
