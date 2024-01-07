@@ -13,9 +13,22 @@ The authors highlight that training a reward model using reinforcement learning 
 
 To address these limitations, the authors propose a novel method that allows for more informative and detailed human feedback. Instead of providing rankings, users can now specify the pros and cons of different generations from the model through textual descriptions. This approach, referred to as "Critique and Revise," involves generating a critique of the initial response, highlighting both positive and negative aspects, and then revising the response based on the critique.
 
+<p align="center">
+  <img alt="img-name" src="/docs/assets/data_efficient/img1.png" width="900">
+  <br>
+    <em>Example of prompt, response, critique and revised response</em>
+</p>
+
+
 To validate their proposed approach, the authors conducted experiments using the Falcon-40B model. They collected critique and revision data with a relatively small amount of labeled data, consisting of 1000 samples. The model was taught human preferences by incorporating the critique into the initial response and revising it accordingly.
 
 The impact of the proposed approach is significant. The authors demonstrate that the Critique and Revise method is able to improve the responses of the ChatGPT level model, leading to a better win-rate of 56.6%. Moreover, after five iterations of revision, the win-rate further improves to an impressive 65.9%.
+
+<p align="center">
+  <img alt="img-name" src="/docs/assets/data_efficient/img2.png" width="900">
+  <br>
+    <em>WinRate improvements for ChatGPT, Vicuna models after incorporating the CnR framework</em>
+</p>
 
 The training workflow for the proposed method is similar to supervised fine-tuning. Each annotated example includes a prompt, initial response, critique, and revised response. The Falcon-40B model is trained using this data, resulting in improved performance and better win-rates for large language models.
 
