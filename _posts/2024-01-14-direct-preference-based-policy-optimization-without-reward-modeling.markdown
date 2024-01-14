@@ -36,6 +36,7 @@ To learn more about the details of this research and its impact, please refer to
 
 **References**
 
-- Jin, Di et al. “Data-Efficient Alignment of Large Language Models with Human Feedback Through Natural Language.” ArXiv abs/2311.14543 (2023): n. pag.
+- Direct Preference-based Policy Optimization without Reward Modeling
+Gaon An, Junhyeok Lee, Xingdong Zuo, Norio Kosaka, Kyung-Min Kim, Hyun Oh Song
 
-[paper-link]: https://arxiv.org/pdf/2311.14543.pdf
+[paper-link]: https://arxiv.org/abs/2301.12842
