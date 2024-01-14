@@ -34,9 +34,9 @@ The proposed method bypasses the need for training a reward function model by di
 The experiments conducted in this study focused on the application of direct preference-based policy optimization (DPPO) to fine-tune large language models using human preference data. The researchers utilized human preference datasets to train preference models and evaluated the performance of the tuned language model through human evaluation. By replacing the traditional PPO algorithm with DPPO, they were able to eliminate unnecessary assumptions typically required for reward-based policy optimization. The following table demonstrates the improved win rate by using the DPO algorithm for LLMs fine-tuning.
 
 <p align="center">
-  <img alt="img-name" src="/docs/assets/dpo/img3.png" width="900">
+  <img alt="img-name" src="/docs/assets/dpo/img4.png" width="900">
   <br>
-    <em>Difference between the traditional PPO method vs the DPO method proposed in the paper.</em>
+    <em>RLHF results using DPPO (ours) compared to PPO. The values in the parentheses denote the gain on average reward compared to the original model.</em>
 </p>
 
 
