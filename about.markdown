@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+🔭 The purpose of these blogs is to de-mystify core ideas from latest research papers in NLP, deep learning, reinforcement learning and other disciples. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+👯 I'm interested in mentoring, coaching and collaborating with fellow enthusiasts in the field of AI. If you have an idea related to my areas of interest, feel free to shoot me an email!
 
+👉🏼 Feel free to follow me on LinkedIn to stay updated with my latest AI learning resources.
 
-[jekyll-organization]: https://github.com/jekyll
+🧠 I currently a Senior Applied Scientist in Generative AI R&D team for Amazon AWS.
+
+🎓 I received my Masters in Information and Communications Technology from Indian Institute of Technology, Jodhpur
+
+🏃🏻‍♂️ Outside of work, I like hiking, kayaking, and staying fit.
